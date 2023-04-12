@@ -1,9 +1,9 @@
 var randomNumber1 = Math.floor(Math.random()*6 + 1);
     // console.log(randomNumber1);
-    var  randomDice = "images/dice"+randomNumber1+".png";
+    var  randomDice = "dice"+randomNumber1+".png";
     document.querySelector(".dice1").setAttribute("src",randomDice);
 var randomNumber2 =Math.floor(Math.random()*6 +1);
-    var  randomDice1 = "images/dice"+randomNumber2+".png";
+    var  randomDice1 = "dice"+randomNumber2+".png";
     document.querySelector(".dice2").setAttribute("src",randomDice1);
 
 
